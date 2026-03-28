@@ -1,0 +1,298 @@
+﻿  Module10.cpp
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,41): error C2065: Tree: необъявленный идентификатор
+  (компиляция исходного файла "Module10.cpp")
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,30): error C2923: std::unique_ptr: "Tree" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Module10.cpp")
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,41):
+       см. объявление "Tree"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,30): error C2976: std::unique_ptr: слишком мало аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,47): error C2955: "std::unique_ptr": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(35,34): error C2065: Tree: необъявленный идентификатор
+  (компиляция исходного файла "Module10.cpp")
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(35,23): error C2923: std::unique_ptr: "Tree" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Module10.cpp")
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(35,34):
+       см. объявление "Tree"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(35,23): error C2976: std::unique_ptr: слишком мало аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(35,40): error C2955: "std::unique_ptr": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(60,33): error C2065: Tree: необъявленный идентификатор
+  (компиляция исходного файла "Module10.cpp")
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(60,22): error C2923: std::unique_ptr: "Tree" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Module10.cpp")
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(60,33):
+       см. объявление "Tree"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(60,22): error C2976: std::unique_ptr: слишком мало аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(60,22): error C3203: "unique_ptr": неспециализированный класс шаблон нельзя использовать в качестве аргумента шаблон для параметра шаблон "_Ty", требуется действительный тип
+  (компиляция исходного файла "Module10.cpp")
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(37,14): error C2678: бинарный "!": не найден оператор, принимающий левый операнд типа "std::unique_ptr" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "Module10.cpp")
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(37,14):
+      может быть "встроенный оператор C++ !(bool)"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(37,14):
+          "!": невозможно преобразовать аргумент 1 из "std::unique_ptr" в "bool"
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(37,14):
+      при попытке сопоставить список аргументов "(std::unique_ptr)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(37,13): error C2088: встроенный оператор "!" не может быть применен к операнду типа "std::unique_ptr"
+  (компиляция исходного файла "Module10.cpp")
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(43,42): error C2678: бинарный "->": не найден оператор, принимающий левый операнд типа "std::unique_ptr" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3481,37):
+      может быть "_Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(43,42):
+          _Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const: невозможно преобразовать указатель "this" из "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx> &"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(43,42):
+              Причина: невозможно преобразовать "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx>"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(43,42):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(43,42):
+      при попытке сопоставить список аргументов "(std::unique_ptr)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(43,48): error C2039: "type": не является членом "std::unique_ptr".
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,42): error C2678: бинарный "->": не найден оператор, принимающий левый операнд типа "std::unique_ptr" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3481,37):
+      может быть "_Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,42):
+          _Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const: невозможно преобразовать указатель "this" из "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx> &"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,42):
+              Причина: невозможно преобразовать "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx>"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,42):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,42):
+      при попытке сопоставить список аргументов "(std::unique_ptr)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,48): error C2039: "type": не является членом "std::unique_ptr".
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,73): error C2678: бинарный "->": не найден оператор, принимающий левый операнд типа "std::unique_ptr" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3481,37):
+      может быть "_Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,73):
+          _Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const: невозможно преобразовать указатель "this" из "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx> &"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,73):
+              Причина: невозможно преобразовать "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx>"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,73):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,73):
+      при попытке сопоставить список аргументов "(std::unique_ptr)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(46,79): error C2039: "name": не является членом "std::unique_ptr".
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(49,35): error C2672: "std::move": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(5283,9):
+      может быть "_FwdIt2 std::move(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(49,35):
+          "_FwdIt2 std::move(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept": ожидаются аргументы 4 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(5271,21):
+      или       "_OutIt std::move(_InIt,_InIt,_OutIt)"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(49,35):
+          "_OutIt std::move(_InIt,_InIt,_OutIt)": ожидаются аргументы 3 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\type_traits(1520,64):
+      или       "remove_reference<_Ty>::type &&std::move(_Ty &&) noexcept"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(49,35):
+          Сбой при специализации функции-шаблона "remove_reference<_Ty>::type &&std::move(_Ty &&) noexcept"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(49,35):
+              Со следующими аргументами шаблона:
+                  D:\itacademy\MD-35-25\Module10\Module10\Forest.h(49,35):
+                  "_Ty=std::unique_ptr &"
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xtr1common(235,78):
+              "std::unique_ptr": для использования класс шаблон требуется список аргументов шаблон
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+               см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(54,36): error C2678: бинарный "->": не найден оператор, принимающий левый операнд типа "std::unique_ptr" (или приемлемое преобразование отсутствует)
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3481,37):
+      может быть "_Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const"
+          D:\itacademy\MD-35-25\Module10\Module10\Forest.h(54,36):
+          _Get_deleter_pointer_type<_Ty,remove_reference<_Ty2>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const: невозможно преобразовать указатель "this" из "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx> &"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(54,36):
+              Причина: невозможно преобразовать "std::unique_ptr" в "const std::unique_ptr<_Ty,_Dx>"
+              D:\itacademy\MD-35-25\Module10\Module10\Forest.h(54,36):
+              Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(54,36):
+      при попытке сопоставить список аргументов "(std::unique_ptr)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Forest.h(54,42): error C2039: "type": не является членом "std::unique_ptr".
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(10,30): error C2065: Tree: необъявленный идентификатор
+  (компиляция исходного файла "Module10.cpp")
+  
+D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(10,19): error C2923: std::unique_ptr: "Tree" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Module10.cpp")
+      D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(10,30):
+       см. объявление "Tree"
+  
+D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(10,19): error C2976: std::unique_ptr: слишком мало аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(10,36): error C2955: "std::unique_ptr": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(12,16): error C2672: "std::move": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(5283,9):
+      может быть "_FwdIt2 std::move(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept"
+          D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(12,16):
+          "_FwdIt2 std::move(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept": ожидаются аргументы 4 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(5271,21):
+      или       "_OutIt std::move(_InIt,_InIt,_OutIt)"
+          D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(12,16):
+          "_OutIt std::move(_InIt,_InIt,_OutIt)": ожидаются аргументы 3 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\type_traits(1520,64):
+      или       "remove_reference<_Ty>::type &&std::move(_Ty &&) noexcept"
+          D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(12,16):
+          Сбой при специализации функции-шаблона "remove_reference<_Ty>::type &&std::move(_Ty &&) noexcept"
+              D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(12,16):
+              Со следующими аргументами шаблона:
+                  D:\itacademy\MD-35-25\Module10\Module10\LeafForest.h(12,16):
+                  "_Ty=std::unique_ptr &"
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xtr1common(235,78):
+              "std::unique_ptr": для использования класс шаблон требуется список аргументов шаблон
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+               см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(10,30): error C2065: Tree: необъявленный идентификатор
+  (компиляция исходного файла "Module10.cpp")
+  
+D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(10,19): error C2923: std::unique_ptr: "Tree" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Module10.cpp")
+      D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(10,30):
+       см. объявление "Tree"
+  
+D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(10,19): error C2976: std::unique_ptr: слишком мало аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(10,36): error C2955: "std::unique_ptr": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+       см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(12,16): error C2672: "std::move": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "Module10.cpp")
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(5283,9):
+      может быть "_FwdIt2 std::move(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept"
+          D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(12,16):
+          "_FwdIt2 std::move(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept": ожидаются аргументы 4 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(5271,21):
+      или       "_OutIt std::move(_InIt,_InIt,_OutIt)"
+          D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(12,16):
+          "_OutIt std::move(_InIt,_InIt,_OutIt)": ожидаются аргументы 3 — 1 предоставлены
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\type_traits(1520,64):
+      или       "remove_reference<_Ty>::type &&std::move(_Ty &&) noexcept"
+          D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(12,16):
+          Сбой при специализации функции-шаблона "remove_reference<_Ty>::type &&std::move(_Ty &&) noexcept"
+              D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(12,16):
+              Со следующими аргументами шаблона:
+                  D:\itacademy\MD-35-25\Module10\Module10\ConiferForest.h(12,16):
+                  "_Ty=std::unique_ptr &"
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xtr1common(235,78):
+              "std::unique_ptr": для использования класс шаблон требуется список аргументов шаблон
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+               см. объявление "std::unique_ptr"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(18,18): error C2664: "void Forest::growUp(std::unique_ptr)": невозможно преобразовать аргумент 1 из "std::unique_ptr<Oak,std::default_delete<Oak>>" в "std::unique_ptr"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(18,46):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,18):
+       см. объявление "Forest::growUp"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(18,18):
+      при попытке сопоставить список аргументов "(std::unique_ptr<Oak,std::default_delete<Oak>>)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(19,18): error C2664: "void Forest::growUp(std::unique_ptr)": невозможно преобразовать аргумент 1 из "std::unique_ptr<Maple,std::default_delete<Maple>>" в "std::unique_ptr"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(19,48):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,18):
+       см. объявление "Forest::growUp"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(19,18):
+      при попытке сопоставить список аргументов "(std::unique_ptr<Maple,std::default_delete<Maple>>)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(20,18): error C2664: "void Forest::growUp(std::unique_ptr)": невозможно преобразовать аргумент 1 из "std::unique_ptr<Birch,std::default_delete<Birch>>" в "std::unique_ptr"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(20,48):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,18):
+       см. объявление "Forest::growUp"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(20,18):
+      при попытке сопоставить список аргументов "(std::unique_ptr<Birch,std::default_delete<Birch>>)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(21,18): error C2664: "void Forest::growUp(std::unique_ptr)": невозможно преобразовать аргумент 1 из "std::unique_ptr<Pine,std::default_delete<Pine>>" в "std::unique_ptr"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(21,47):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,18):
+       см. объявление "Forest::growUp"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(21,18):
+      при попытке сопоставить список аргументов "(std::unique_ptr<Pine,std::default_delete<Pine>>)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(24,21): error C2664: "void Forest::growUp(std::unique_ptr)": невозможно преобразовать аргумент 1 из "std::unique_ptr<Pine,std::default_delete<Pine>>" в "std::unique_ptr"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(24,50):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,18):
+       см. объявление "Forest::growUp"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(24,21):
+      при попытке сопоставить список аргументов "(std::unique_ptr<Pine,std::default_delete<Pine>>)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(25,21): error C2664: "void Forest::growUp(std::unique_ptr)": невозможно преобразовать аргумент 1 из "std::unique_ptr<Cedar,std::default_delete<Cedar>>" в "std::unique_ptr"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(25,51):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,18):
+       см. объявление "Forest::growUp"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(25,21):
+      при попытке сопоставить список аргументов "(std::unique_ptr<Cedar,std::default_delete<Cedar>>)"
+  
+D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(26,21): error C2664: "void Forest::growUp(std::unique_ptr)": невозможно преобразовать аргумент 1 из "std::unique_ptr<Maple,std::default_delete<Maple>>" в "std::unique_ptr"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(26,51):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      D:\itacademy\MD-35-25\Module10\Module10\Forest.h(12,18):
+       см. объявление "Forest::growUp"
+      D:\itacademy\MD-35-25\Module10\Module10\Module10.cpp(26,21):
+      при попытке сопоставить список аргументов "(std::unique_ptr<Maple,std::default_delete<Maple>>)"
+  
