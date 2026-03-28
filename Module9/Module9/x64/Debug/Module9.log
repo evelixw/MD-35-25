@@ -1,0 +1,38 @@
+﻿  Forest.cpp
+D:\itacademy\MD-35-25\Module9\Module9\Tree.h(41,25): error C2027: использование неопределенного типа "Forest"
+  (компиляция исходного файла "Forest.cpp")
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(17,7):
+       см. объявление "Forest"
+  
+D:\itacademy\MD-35-25\Module9\Module9\Forest.cpp(17,22): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+D:\itacademy\MD-35-25\Module9\Module9\Forest.cpp(46,63): error C2248: Tree::name: невозможно обратиться к private член, объявленному в классе "Tree"
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(21,17):
+       см. объявление "Tree::name"
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(19,7):
+       см. объявление "Tree"
+  
+D:\itacademy\MD-35-25\Module9\Module9\Forest.cpp(46,88): error C2248: Tree::id: невозможно обратиться к private член, объявленному в классе "Tree"
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(23,9):
+       см. объявление "Tree::id"
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(19,7):
+       см. объявление "Tree"
+  
+D:\itacademy\MD-35-25\Module9\Module9\Forest.cpp(47,9): error C2248: Tree::id: невозможно обратиться к private член, объявленному в классе "Tree"
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(23,9):
+       см. объявление "Tree::id"
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(19,7):
+       см. объявление "Tree"
+  
+  main.cpp
+D:\itacademy\MD-35-25\Module9\Module9\Tree.h(41,25): error C2027: использование неопределенного типа "Forest"
+  (компиляция исходного файла "main.cpp")
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(17,7):
+       см. объявление "Forest"
+  
+  Tree.cpp
+D:\itacademy\MD-35-25\Module9\Module9\Tree.h(41,25): error C2027: использование неопределенного типа "Forest"
+  (компиляция исходного файла "Tree.cpp")
+      D:\itacademy\MD-35-25\Module9\Module9\Tree.h(17,7):
+       см. объявление "Forest"
+  
+  Создание кода...
