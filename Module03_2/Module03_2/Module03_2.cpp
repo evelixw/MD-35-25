@@ -1,8 +1,8 @@
 ﻿#include <iostream>
 #include <cstdlib>
 #include <ctime>
-using namespace std;
 
+using namespace std;
 int player1() {
     return rand() % 11 - 5;
 }
@@ -14,16 +14,16 @@ int player2() {
 int main() {
     srand(time(0));
 
-    int counter = 0;    
-    int moveNumber = 0;   
-    bool needPositive = true; 
+    int counter = 0;
+    int moveNumber = 0;
+    bool needPositive = true;
 
     cout << "Игра началась!" << endl;
     cout << "Начальный счёт: " << counter << endl << endl;
 
     while (moveNumber < 100) {
         int moveValue;
-        int currentPlayer; 
+        int currentPlayer;
 
         moveNumber++;
         currentPlayer = (moveNumber % 2 == 1) ? 1 : 2;
@@ -43,9 +43,10 @@ int main() {
                 break;
             }
 
-
         } while (true);
+
         counter += moveValue;
+
         cout << "Ход " << moveNumber << ": Игрок " << currentPlayer
             << " сгенерировал " << moveValue
             << " | Счётчик: " << counter << endl;
@@ -55,6 +56,7 @@ int main() {
             cout << "Счётчик превысил 50 после " << moveNumber << " ходов!" << endl;
             return 0;
         }
+
         needPositive = !needPositive;
     }
 
