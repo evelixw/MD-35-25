@@ -1,0 +1,7 @@
+﻿  Module08.cpp
+D:\itacademy\MD-35-25\Module08\Module08\Module08.cpp(14,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\itacademy\MD-35-25\Module08\Module08\Module08.cpp(17,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\itacademy\MD-35-25\Module08\Module08\Module08.cpp(22,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\itacademy\MD-35-25\Module08\Module08\Module08.cpp(27,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\itacademy\MD-35-25\Module08\Module08\Module08.cpp(30,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\itacademy\MD-35-25\Module08\Module08\Module08.cpp(35,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
